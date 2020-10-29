@@ -29,6 +29,11 @@ public class GolfBag
 		}
 	}
 	
+	public void addClub(GolfClub golfClub)
+	{
+		this.golfBag.add(golfClub);
+	}
+	
 	public ArrayList<GolfClub> getGolfBag()
 	{
 		return golfBag;
